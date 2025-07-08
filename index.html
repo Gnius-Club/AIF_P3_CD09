@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ciudadanía Digital 9: Pilotos de Nuestro Propio Tiempo</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+    <header>
+        <h1><span class="book-icon">🧑‍💻</span> <strong>Ciudadanía Digital Misión 9:Pilotos de Nuestro Propio Tiempo</strong></h1>
+        <div class="header-widgets">
+            <div class="timer-container">
+                <span id="timer">⏱️ 00:00</span>
+                <button id="startStop">Start</button>
+                <button id="reset">Reset</button>
+            </div>
+            <div class="theme-toggle">
+                <i class="fas fa-sun"></i>
+                <label class="switch">
+                    <input type="checkbox" id="theme-toggle-input">
+                    <span class="slider round"></span>
+                </label>
+                <i class="fas fa-moon"></i>
+            </div>
+        </div>
+    </header>
+
+    <div class="main-container">
+        <aside class="activity-list">
+            <h2>Actividades</h2>
+            <ul>
+                <li><a href="#activity-0">📝</a></li>
+                <li><a href="#activity-1">1</a></li>
+                <li><a href="#activity-2">2</a></li>
+                <li><a href="#activity-3">3</a></li>
+                <li><a href="#activity-4">4</a></li>
+                <li><a href="#activity-5">5</a></li>
+                <li><a href="#activity-6">6</a></li>
+                <li><a href="#activity-7">7</a></li>
+            </ul>
+
+            <div class="sidebar-info">
+                <p>💡 Cada actividad está cuidadosamente diseñada para involucrar a los estudiantes.</p>
+                <p>⏱️ Se proporcionan estimaciones de tiempo para cada actividad para ayudarle a mantener el rumbo.</p>
+            </div>
+        </aside>
+
+        <main class="content">
+            <div class="progress-bar">
+                <div class="progress"></div>
+            </div>
+
+            <button id="toggle-dialogues">Mostrar todos los diálogos</button>
+
+            <!-- SECCIÓN "DE UN VISTAZO" (ANTES ACTIVITY-0) -->
+            <div class="activity-card" id="activity-0">
+                <h2><span class="book-icon">📝</span> De un Vistazo: Sesión Gnius</h2>
+                <p class="overview-subtitle">Resumen rápido de objetivos, materiales y preparación para el facilitador.</p>
+                <div class="overview-table-container">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th style="width: 50%;">Objetivos, Tácticas y Entregable</th>
+                                <th style="width: 50%;">Materiales Específicos y Preparación Previa</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <strong>Objetivos:</strong>
+                                    <ul>
+                                        <li>Gestionar el tiempo frente a pantallas para cuidar la salud y cumplir responsabilidades.</li>
+                                        <li>Realizar una auditoría personal de uso de tecnología.</li>
+                                        <li>Analizar el impacto en emociones, postura y atención.</li>
+                                        <li>Crear estrategias autogestivas para el balance digital.</li>
+                                        <li>Planificar rutinas saludables que equilibren el uso de dispositivos con otras actividades.</li>
+                                    </ul>
+                                    <strong>Secuencia de Clase:</strong>
+                                    <ul>
+                                        <li><strong class="tactic-highlight">Activación Gnius Club</strong></li>
+                                        <li><strong class="tactic-highlight">Recuerdo Relámpago</strong></li>
+                                        <li><strong class="tactic-highlight">Objetivos de la Misión: "I Can Statement"</strong></li>
+                                        <li><strong class="tactic-highlight">Brain Boost</strong></li>
+                                        <li><strong class="tactic-highlight">Gamer Express</strong></li>
+                                        <li><strong class="tactic-highlight">Challenge</strong></li>
+                                        <li><strong class="tactic-highlight">Clave Secreta de la Misión</strong></li>
+                                    </ul>
+                                    <strong>Entregable Clave:</strong>
+                                    <ul>
+                                        <li>"Panel de Control del Bienestar" personal diseñado en el cuaderno, con actividades para cada una de las 4 zonas.</li>
+                                    </ul>
+                                </td>
+                                <td>
+                                    <strong>Materiales Específicos:</strong>
+                                    <ul>
+                                        <li>Proyector o pantalla interactiva.</li>
+                                        <li>Conexión a internet estable.</li>
+                                        <li>Chat de "Ada" activo y funcionando.</li>
+                                        <li>Presentación de diapositivas.</li>
+                                        <li>Cuadernos y colores.</li>
+                                    </ul>
+                                    <strong>Preparación Previa para ESTA Sesión:</strong>
+                                    <ol>
+                                        <li><strong>Revisión de Misión (Interna):</strong>
+                                            <ul>
+                                                <li>Verificar conexión a internet.</li>
+                                                <li>Asegurar disponibilidad y carga de los dispositivos físicos (ej. tabletas, ordenadores).</li>
+                                                <li>Tener la presentación de diapositivas lista y en orden.</li>
+                                                <li>Probar el chat "Ada" para asegurar su operatividad.</li>
+                                            </ul>
+                                        </li>
+                                        <li><strong>Familiarización:</strong> Revisar el flujo de la sesión, los diálogos sugeridos y los tiempos de cada actividad.</li>
+                                    </ol>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <!-- FIN DE LA SECCIÓN "DE UN VISTAZO" -->
+
+            <div class="activity-card" id="activity-1">
+                <h2>⚡ Actividad 1: Activación Gnius Club ⏰ 3 minutos</h2>
+                <p>Presentar la dinámica de activación para explorar conceptos de energía.</p>
+                <div class="steps">
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 1: Activación Gnius Club ⏰ 1 minutos</h3>
+                            <p>Proyectar Diapositiva 2. Activación: Adivina el Concepto con Mímica.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">¡Atención, pilotos! ¡A sus cabinas! 🚀 Para nuestra misión, vamos a calentar motores con Adivina el Concepto con Mímica. ¿Quién es el primer valiente en representar una idea que yo le diga en secreto? ¡Prepárense para adivinar!<br>Un voluntario actúa conceptos como ""Batería al 1%"", ""Energía al 100%"", ""Demasiado tiempo en la pantalla""</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 2: Activación Gnius Club ⏰ 2 minutos</h3>
+                            <p>Un voluntario actúa conceptos como "Batería al 1%", "Energía al 100%", "Demasiado tiempo en la pantalla". El grupo adivina.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">¡Increíble! ¡Esa fue una perfecta imitación de 'Batería al 1%'! 😴 ¡Y esa de 'Energía al 100%'! 🤸‍♂️ ¡Sentir esa diferencia en nuestro cuerpo es clave para la misión de hoy! ¡Aplausos para nuestro actor!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="activity-card" id="activity-2">
+                <h2>⚡ Actividad 2: Recuerdo Relámpago ⏰ 4 minutos</h2>
+                <p>Activar el conocimiento previo usando la pregunta clave de la misión anterior.</p>
+                <div class="steps">
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 1: Recuerdo Relámpago ⏰ 2 minutos</h3>
+                            <p>Proyectar Diapositiva 3. Recuerdo Relámpago: El Filtro del Minero.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">¡Pilotos! Antes de despegar, recordemos nuestra herramienta más poderosa de la última misión: El Filtro del Minero Sabio. Lo usamos para proteger nuestro cerebro de la información falsa. Pero, ¿qué le pasa a cualquier computadora (o cerebro) si la dejamos prendida haciendo mil cosas a la vez, sin descanso?</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 2: Recuerdo Relámpago ⏰ 2 minutos</h3>
+                            <p>En parejas, discuten la pregunta. El maestro conecta sus ideas con la misión de hoy.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">¡Discutan con su copiloto! (Pausa). ¡Escucho 'se calienta', 'se vuelve lenta', 'se traba'! ¡Exacto! Podemos tener el mejor antivirus (el Filtro), pero si no cuidamos la máquina... ¡no funciona! Hoy aprenderemos a ser los ingenieros de nuestra propia energía.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="activity-card" id="activity-3">
+                <h2>⚡ Actividad 3: Objetivos de la Misión: "I Can Statement" ⏰ 3 minutos</h2>
+                <p>Presentar la meta de la sesión con una metáfora de control y gestión.</p>
+                <div class="steps">
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 1: Objetivos de la Misión: "I Can Statement" ⏰ 1.5 minutos</h3>
+                            <p>Proyectar Diapositiva 4. Objetivos de la Misión. (Imagen de un panel de control de una nave espacial con 4 medidores de energía: "Digital", "Mente Activa", "Cuerpo en Movimiento", "Recarga").</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">¡Equipo! Nuestra misión del día de hoy es convertirnos en PILOTOS DE NUESTRO PROPIO TIEMPO. Este es su panel de control. Un buen piloto no solo vuela rápido, ¡mantiene todos sus sistemas en verde! Hoy aprenderemos a diseñar nuestro propio plan de vuelo para que ninguna energía se nos agote.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 2: Objetivos de la Misión: "I Can Statement" ⏰ 1.5 minutos</h3>
+                            <p>Los estudiantes escriben o dibujan su "I Can Statement" y lo comparten.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">Cada piloto traza su ruta. La mía es: 'Yo puedo planear mi tarde para que mi medidor de 'Cuerpo en Movimiento' llegue a la zona verde'. Ahora ustedes, en su bitácora de vuelo, completen: 'Hoy mi plan de vuelo incluirá...'. ¡Compártanlo!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="activity-card" id="activity-4">
+                <h2>⚡ Actividad 4: Brain Boost ⏰ 5 minutos</h2>
+                <p>Despertar curiosidad con una historia sobre las consecuencias del desequilibrio digital.</p>
+                <div class="steps">
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 1: Brain Boost ⏰ 2 minutos</h3>
+                            <p>Proyectar Diapositiva 5. Brain Boost: El Caso del Universo Creativo.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">Les presento a Leo. Descubre una app increíble para crear universos llamada 'Cosmo-Builder'. Se pasa toda la tarde del sábado creando planetas, estrellas y hasta un agujero negro con brillitos. ¡Es genial!</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 2: Brain Boost ⏰ 2 minutos</h3>
+                            <p>Proyectar Diapositiva 6. El Costo del Vuelo. (Imagen de Leo en su tablet, y afuera de su ventana se ve a sus amigos jugando, y sobre su escritorio, una maqueta escolar a medio hacer).</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">Leo está feliz con su universo, pero cuando levanta la vista, ya es de noche. Se perdió el partido de fútbol con sus amigos, no avanzó en su maqueta del sistema solar para la escuela, y sus ojos y espalda se sienten cansados.  El juego de Leo era creativo, no era 'malo'. Entonces, ¿cuál fue el verdadero problema en esta historia?</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 3: Brain Boost ⏰ 1 minutos</h3>
+                            <p>Conexión a la Misión (sin diapositiva, es parte del diálogo).</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">¡Exacto! ¡El problema no fue el juego, sino la falta de un 'plan de vuelo'! 🛸 Leo puso toda su energía en un solo motor y los demás se apagaron. Un buen piloto sabe que para un viaje largo y feliz, ¡todos los motores deben funcionar en equilibrio!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="activity-card" id="activity-5">
+                <h2>⚡ Actividad 5: Gamer Express ⏰ 10 minutos</h2>
+                <p>Practicar la toma de decisiones para balancear actividades en un entorno gamificado.</p>
+                <div class="steps">
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 1: Gamer Express ⏰ 10 minutos</h3>
+                            <p>Proyectar Diapositiva 7. Gamer Express: El Simulador de Vuelo y Timer de 10 min.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">¡Es hora de ir al simulador de vuelo! Entren al Gamer Express y jueguen la misión 'Equilibrio Energético'. Tendrán un día entero para planificar. Su objetivo: terminar el día con los 4 medidores de energía (Digital, Mente, Cuerpo, Recarga) en la zona verde. ¡Que no se les caiga el sistema!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="activity-card" id="activity-6">
+                <h2>⚡ Actividad 6: Challenge ⏰ 10 minutos</h2>
+                <p>Introducir el reto final de diseño personal como la graduación de un piloto.</p>
+                <div class="steps">
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 1: Challenge ⏰ 1 minutos</h3>
+                            <p>Proyectar Diapositiva 8. Challenge: Diseña tu Panel de Control.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">¡Han demostrado ser pilotos expertos en el simulador! Ahora, la prueba final, su graduación: Diseñar su propio y único Panel de Control del Bienestar. 🧑‍🚀</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 2: Challenge ⏰ 2 minutos</h3>
+                            <p>Proyectar Diapositiva 9. Las 4 Zonas de Poder. (Imagen de un círculo dividido en 4 cuadrantes de colores).</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">"Todo panel de control necesita zonas claras. Estas son las suyas: <br>1. Zona Digital 💻 (juegos, videos), <br>2. Zona de Mente Activa 🧠 (tareas, lectura),<br> 3. Zona de Cuerpo en Movimiento 🤸‍♀️ (deportes, salir a jugar), y <br>4. Zona de Recarga 😴 (descanso, estar tranquilo)."</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 3: Challenge ⏰ 5 minutos</h3>
+                            <p>En sus cuadernos, los estudiantes dibujan su "Panel de Control" (un círculo dividido en 4) y escriben o dibujan 2 actividades que harán esa semana para cada zona.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">¡A diseñar, ingenieros! En su cuaderno, dibujen su panel y dividanlo en las 4 zonas. Ahora, la misión: escriban o dibujen al menos DOS actividades reales que harán esta semana para cargar de energía cada una de sus zonas. ¡Este es SU plan de vuelo personal!</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 4: Challenge ⏰ 2 minutos</h3>
+                            <p>Proyectar Diapositiva 10. Feria de Planes de Vuelo.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">¡Tiempo! Ahora, vamos a hacer una 'Feria de Planes de Vuelo'. Dejen su cuaderno abierto en su mesa y caminen por el salón para ver los planes de los demás pilotos. El reto: encuentren UNA nueva idea genial de otro compañero para añadir a su propio plan.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="activity-card" id="activity-7">
+                <h2>⚡ Actividad 7: Clave Secreta de la Misión ⏰ 5 minutos</h2>
+                <p>Consolidar la idea principal de la sesión con una pregunta de cierre.</p>
+                <div class="steps">
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 1: Clave Secreta de la Misión ⏰ 1 minutos</h3>
+                            <p>Proyectar Diapositiva 11. Clave Secreta de la Misión.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">¡Son oficialmente Pilotos Certificados del Bienestar! Han diseñado planes increíbles. Una última pregunta: ¿Cuál es la herramienta más importante que un piloto usa antes de despegar cada día?</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 2: Clave Secreta de la Misión ⏰ 2 minutos</h3>
+                            <p>Proyectar Diapositiva 12. La Checklist del Piloto Inteligente. El maestro presenta la clave final.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">¡Un plan! ¡Una checklist! ¡Exacto! Para que nunca despeguen sin rumbo, esta es su clave final, la Checklist del Piloto Inteligente. Cada mañana, pregúntense: <br>✨ 1. Motor Digital... ¿con límite? 🧠<br>✨ 2. Alas Físicas... ¿en movimiento? 🤸‍♂️<br>✨ 3. Cabina Mental... ¿con descanso? 😴</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 3: Clave Secreta de la Misión ⏰ 2 minutos</h3>
+                            <p>Proyectar Diapositiva 13. ¡Misión Cumplida, Gnius Club!</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">¡Vamos a hacer la checklist con gestos! ¡Motor digital! (señalan su cabeza). ¡Alas físicas! (mueven sus brazos). ¡Cabina mental! (bostezan y se estiran). ¡Perfecto! Guarden esta checklist, porque con ella, han completado su entrenamiento. ¡Son oficialmente Ciudadanos Digitales Gnius, listos para explorar, crear y liderar el mundo digital de forma segura, sabia y balanceada! ¡Felicidades, equipo!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
